@@ -1,15 +1,22 @@
 baseURL = ""
 languageCode = "fr-fr"
 title = "Mini FM transmitter"
-theme = "accessible-minimalism"
-disableHugoGeneratorInject = true
+theme = "hugo-classic"
 
 [menu]
   [[menu.main]]
-    name = "Home"
+    name = "Accueil"
     url = "/"
     weight = 1
   [[menu.main]]
     name = "Posts"
     url = "/posts/"
     weight = 2
+  [[menu.main]]
+    name = "Détails techniques"
+    url = "/techniques/"
+    weight = 3
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4

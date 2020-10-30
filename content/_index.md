@@ -1,3 +1,37 @@
-+++
-author = "Hugo Authors"
-+++
+---
+title: Accueil
+---
+
+# Mini radio émetteur FM
+
+### Pouquoi s'intéresser à ces petits appareils?
+
+Ce site est un tout petit outils qui tente de remplir une seul mission: fournir un guide pour construire des petits émetteurs radio FM.
+
+Ces petits appareils sont formidables. Je leur trouve pleins de petits avantages:
+
+- jouer à émettre de la radio localement
+- découvrir l'électronique
+- accessible à toutes et tous
+- ne demande pas l'accès à de grosses machines
+
+Je vois une certaine humilité dans ces tous petits émetteurs radios de qui on attends peu et qui donne en retour le juste bon niveau.
+
+### Par quoi commencer?
+
+Si vous découvrez le site, je vous invite à aller dans la section guide qui est un pas à pas de toutes les étapes de constructions de la radio.
+
+Pour les aspects plus techniques de la radio, je vous invite à aller dans la section "détails techniques". N'étant pas un joyeux savant des ondes radios et de l'électronique, vous y trouverez probablement des erreurs. Si vous en voyez une, dites le moi, que l'information s'améliore au fur et à mesure.
+
+### Pourquoi en faire un site internet?
+
+Au départ, je pensais me limiter à faire une brochure. Mais dans le processus de fabrication, je me suis rendu compte que les supports visuels sur une brochure noir et blanc, ça marche pas trop. J'ai donc décidé de faire du site la référence principale en terme d'information, et de la brochure un support d'atelier ou un outils de communication qui aiguille vers le site.
+
+
+### Comment puis-je aider?
+
+Si tu vois une coquille sur le site, tu peux sois m'envoyer un email, sois soumettre une correction directement sur le github du site: <https://github.com/jesterbamboo/minifm-transmitter>
+
+Si tu t'y connais un peu, il y a une section "amélioration". Tu peux y jeter un oeil et en faire exister une. Tu peux aussi proposer des améliorations.
+
+Ceci est un projet personnel mais je suis tout à fait partant pour que ça devienne collectif.
