@@ -19,9 +19,9 @@ Je vois une certaine humilité dans ces tous petits émetteurs radios de qui on 
 
 ### Par quoi commencer?
 
-Si vous découvrez le site, je vous invite à aller dans la section guide qui est un pas à pas de toutes les étapes de constructions de la radio.
+Si vous découvrez le site, je vous invite à aller dans la section [guide](/guide) qui est un pas à pas de toutes les étapes de constructions de la radio.
 
-Pour les aspects plus techniques de la radio, je vous invite à aller dans la section "détails techniques". N'étant pas un joyeux savant des ondes radios et de l'électronique, vous y trouverez probablement des erreurs. Si vous en voyez une, dites le moi, que l'information s'améliore au fur et à mesure.
+Pour les aspects plus techniques de la radio, je vous invite à aller dans la section [détails techniques](/techniques). N'étant pas un joyeux savant des ondes radios et de l'électronique, vous y trouverez probablement des erreurs. Si vous en voyez une, dites le moi, que l'information s'améliore au fur et à mesure.
 
 ### Pourquoi en faire un site internet?
 
@@ -30,7 +30,7 @@ Au départ, je pensais me limiter à faire une brochure. Mais dans le processus 
 
 ### Comment puis-je aider?
 
-Si tu vois une coquille sur le site, tu peux sois m'envoyer un email, sois soumettre une correction directement sur le github du site: <https://github.com/jesterbamboo/minifm-transmitter>
+Si tu vois une coquille sur le site, tu peux m'envoyer un email ou  soumettre une correction directement sur le github du site: <https://github.com/jesterbamboo/minifm-transmitter>
 
 Si tu t'y connais un peu, il y a une section "amélioration". Tu peux y jeter un oeil et en faire exister une. Tu peux aussi proposer des améliorations.
 

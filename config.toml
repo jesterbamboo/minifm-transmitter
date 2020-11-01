@@ -9,8 +9,8 @@ theme = "hugo-classic"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "Posts"
-    url = "/posts/"
+    name = "Guide"
+    url = "/guide/"
     weight = 2
   [[menu.main]]
     name = "Détails techniques"
