@@ -4,8 +4,6 @@ title: Accueil
 
 # Mini radio émetteur FM
 
-### Pouquoi s'intéresser à ces petits appareils?
-
 Ce site est un tout petit outils qui tente de remplir une seul mission: fournir un guide pour construire des petits émetteurs radio FM.
 
 Ces petits appareils sont formidables. Je leur trouve pleins de petits avantages:
@@ -19,13 +17,13 @@ Je vois une certaine humilité dans ces tous petits émetteurs radios de qui on 
 
 ### Par quoi commencer?
 
-Si vous découvrez le site, je vous invite à aller dans la section [guide](/guide) qui est un pas à pas de toutes les étapes de constructions de la radio.
+Si vous découvrez le site, je vous invite à aller dans la section [guide](/guide) qui est un pas à pas de toutes les étapes de constructions de l'émetteur radio.
 
-Pour les aspects plus techniques de la radio, je vous invite à aller dans la section [détails techniques](/techniques). N'étant pas un joyeux savant des ondes radios et de l'électronique, vous y trouverez probablement des erreurs. Si vous en voyez une, dites le moi, que l'information s'améliore au fur et à mesure.
+Pour les aspects plus techniques de l'émetteur, je vous invite à aller dans la section [détails techniques](/techniques). N'étant pas un joyeux savant des ondes radios et de l'électronique, vous y trouverez probablement des erreurs. Si vous en voyez une, dites le moi, que l'information s'améliore au fur et à mesure.
 
 ### Pourquoi en faire un site internet?
 
-Au départ, je pensais me limiter à faire une brochure. Mais dans le processus de fabrication, je me suis rendu compte que les supports visuels sur une brochure noir et blanc, ça marche pas trop. J'ai donc décidé de faire du site la référence principale en terme d'information, et de la brochure un support d'atelier ou un outils de communication qui aiguille vers le site.
+Au départ, je pensais me limiter à faire une brochure papier à distribuer. Mais dans le processus de fabrication, je me suis rendu compte que les supports visuels sur une brochure noir et blanc, ça marche pas trop. J'ai donc décidé de faire un site internet comme référence principale en terme d'information, et de la brochure un support d'atelier ou un outils de communication qui aiguille vers le site.
 
 
 ### Comment puis-je aider?
