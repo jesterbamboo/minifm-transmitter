@@ -20,10 +20,14 @@ theme = "hugo-classic"
     name = "Image et vidéos"
     url = "/gallery/"
     weight = 4
+    [[menu.main]]
+      name = "Problèmes et améliorations"
+      url = "/issues-and-improvements/"
+      weight = 5
   [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 5
+    weight = 6
 
 [markup]
   [markup.goldmark]

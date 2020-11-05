@@ -1,5 +1,5 @@
 +++
-title = "Gallerie image et vidéos"
+title = "Gallerie d'image et de vidéos"
 author = "Jester Bamboo"
 +++
 

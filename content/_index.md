@@ -26,7 +26,7 @@ Pour les aspects plus techniques de l'émetteur, je vous invite à aller dans la
 Au départ, je pensais me limiter à faire une brochure papier à distribuer. Mais dans le processus de fabrication, je me suis rendu compte que les supports visuels sur une brochure noir et blanc, ça marche pas trop. J'ai donc décidé de faire un site internet comme référence principale en terme d'information, et de la brochure un support d'atelier ou un outils de communication qui aiguille vers le site.
 
 
-### Comment puis-je aider?
+### Comment peux-tu aider?
 
 Si tu vois une coquille sur le site, tu peux m'envoyer un email ou  soumettre une correction directement sur le github du site: <https://github.com/jesterbamboo/minifm-transmitter>
 
