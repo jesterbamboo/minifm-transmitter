@@ -1,11 +1,13 @@
 +++
-title = "Guide"
+title = "Guide pas à pas"
 author = "Jester Bamboo"
 +++
-# TODO
+# Todo
 
 - il faut voir comment faire pour que les images soit en petit dans le guide, mais qu'il soit possible de cliquer dessus pour agrandir l'image et voir mieux le détails. il faut donc que les images soit redimensionner dynamiquement par hugo ou par le css.
 lorsque l'on clique sur la photo, est-ce que ça l'ouvre tout seul et il faut revenir en arrière ou ça l'ouvre dans une modale? il est essentiel que le site soit fonctionnel sous tor. et aussi, il faut qu'il soit fonctionnel sans javascript. Il est possible d'imaginer que les deux comportements existes. s'il y a du javascript, ça fait une modale, s'il n'y en a pas ça ouvre l'image dans l'onglet actuelle. c'est un comportement acceptable pour un utilisateur qui décide de désactiver le javascript. dans un premier temps, il est plus facile et rapide de faire la méthode sans javascript, et la méthode avec javascript viendra dans un deuxième temps.
+
+tuto pour implémenter le zoom in pour les images: https://codeconvey.com/html-image-zoom-on-click/
 
 Ce guide pas à pas se veut minimaliste sur l'aspect théorique et se concentre sur la fabrication de l'émetteur FM. Pour plus de détails théoriques, je vous invite à allez jeter un oeil à la section [détails techniques](/techniques).
 
@@ -26,9 +28,9 @@ Note: La compréhension du schéma électronique n'est pas requise pour arrivé 
     - 1 x 10k ohm (marron-noir-orange)
     - 1 x 27k ohm (rouge-violet-orange)
 
-    ![Résistance 470 ohm](/composants/resistance-470.jpg)
-    ![Résistance 10k ohm](/composants/resistance-10k.jpg)
-    ![Résistance 27k ohm](/composants/resistance-27k.jpg)
+    <a href="/composants/resistance-470.jpg"><img class="small" src="/composants/resistance-470.jpg" alt="Résistance 470 ohm"/></a>
+    <a href="/composants/resistance-10k.jpg"><img class="small" src="/composants/resistance-10k.jpg" alt="Résistance 10k ohm"/></a>
+    <a href="/composants/resistance-27k.jpg"><img class="small" src="/composants/resistance-27k.jpg" alt="Résistance 27k ohm"/></a>
 
 - Condensateurs
     - 1 x 10 picofarad (pF)
@@ -36,27 +38,26 @@ Note: La compréhension du schéma électronique n'est pas requise pour arrivé 
     - 1 x 1 microfarad (uF) polarisé     
     - 1 x condensateur variable entre 1 et 22 picofarad (pF)
 
-    ![Condensateur 10 picofarad](/composants/condensateur-10pF.jpg)
-    ![Condensateur 10 nanofarad](/composants/condensateur-10nF.jpg)
-    ![Condensateur 1 microfarad ](/composants/condensateur-1uF.jpg)
-    ![Condensateur variable](/composants/condensateur-variable.jpg)
-
+    <a href="/composants/condensateur-10pF.jpg"><img class="small" src="/composants/condensateur-10pF.jpg" alt="Condensateur 10 picofarad"/></a>
+    <a href="/composants/condensateur-10nF.jpg"><img class="small" src="/composants/condensateur-10nF.jpg" alt="Condensateur 10 nanofarad"/></a>
+    <a href="/composants/condensateur-1uF.jpg"><img class="small" src="/composants/condensateur-1uF.jpg" alt="Condensateur 1 microfarad"/></a>
+    <a href="/composants/condensateur-variable.jpg"><img class="small" src="/composants/condensateur-variable.jpg" alt="Condensateur variablem"/></a>
 
 - 1 x transistor NPN - 2N2222A
 - 10cm de fil de cuivre émaillé 0.8mm (pour fabriquer une bobine)
 - Plaque en époxy simple face, 8mm d'épaisseur, recouvert d'une couche de cuivre
 
-    ![Transistor 2N2222A](/composants/transistor-2N2222A.jpg)
-    ![Fil émaillé](/composants/fil-emaille.jpg)
-    ![Plaque époxy](/composants/plaque-epoxy.jpg)
+    <a href="/composants/transistor-2N2222A.jpg"><img class="small" src="/composants/transistor-2N2222A.jpg" alt="Transistor 2N2222A"/></a>
+    <a href="/composants/fil-emaille.jpg"><img class="small" src="/composants/fil-emaille.jpg" alt="Fil émaillé"/></a>
+    <a href="/composants/plaque-epoxy.jpg"><img class="small" src="/composants/plaque-epoxy.jpg" alt="Plaque époxy"/></a>
 
 - 1 x fiche jack femelle mono "3,5mm"
 - 1 x connecteur à pression pour pile 9V
 - 1 x pile 9V
 
-![Jack femelle](/composants/jack-femelle.jpg)
-![Connecteur pile 9V](/composants/connecteur-9V.jpg)
-![Pile 9V](/composants/pile-9V.jpg)
+    <a href="/composants/jack-femelle.jpg"><img class="small" src="/composants/jack-femelle.jpg" alt="Jack femelle"/></a>
+    <a href="/composants/connecteur-9V.jpg"><img class="small" src="/composants/connecteur-9V.jpg" alt="Connecteur pile 9V"/></a>
+    <a href="/composants/pile-9V.jpg"><img class="small" src="/composants/pile-9V.jpg" alt="Pile 9V"/></a>
 
 ## Où acheter les composants?
 
@@ -107,50 +108,61 @@ Voici un exemple de panier pour la fabrication de 10 émetteurs.
 
 4. Faites fondre de l’étain sur chaque potentiel à l’aide du fer à souder
 
-![Potentiels et masses 1](/assemblage/1-potentiels-masses.jpg)
-![Potentiels et masses 2](/assemblage/2-potentiels-colles.jpg)
+<a href="/assemblage/1-potentiels-masses"><img class="medium" src="/assemblage/1-potentiels-masses.jpg" alt="Potentiels et masses 1"/></a>
+<a href="/assemblage/2-potentiels-colles.jpg"><img class="medium" src="/assemblage/2-potentiels-colles.jpg" alt="Potentiels et masses 2"/></a>
 
 5. Soudez le transistor
     - selon le type de transistor que vous avez, plusieurs montage son possible. Dans le cas le plus simple où vous avez le 2N2222A dans un boitier TO92, il vous suffit de suivre la photo suivante
 
     - si vous avez un autre transistor, il vous faut allez vérifier sur internet son sens de montage en fonction des broches base, émetteur et collecteur dans la datasheet.
 
-    ![Datasheet 2N2222A](/assemblage/3-2n2222a.jpg)
-    ![Montage transistor](/assemblage/4-transistor.jpg)
+    <a href="/assemblage/3-2N2222A.jpg"><img class="medium" src="/assemblage/3-2N2222A.jpg" alt="Datasheet 2N2222A"/></a>
+    <a href="/assemblage/4-transistor.jpg"><img class="medium" src="/assemblage/4-transistor.jpg" alt="Montage transistor"/></a>
 
-6. Soudez le petit condensateur de 10pF entre les pattes émetteur et collecteur du transistor
+6. Soudez le petit condensateur de 10pF entre les pattes émetteur et collecteur du transistor.(attention, les photos montrent un ordre de montage un peu différent avec le condensateur 10pf qui est monté après le condensateur variable. J'ai depuis changé ma façon de faire et je recommande de souder le 10pf avant le variable.)
 
 7. Soudez le condensateur variable. Le condensateur variable a trois pattes. Il faut mettre une des pattes sur le potentiel indiqué sur le schéma et les deux autres pattes à la masse. Sur l’image ci-dessous, on voit les trois pattes du condensateurs. Les broches entourés d’un cercle rouge doivent-être reliées à la masse (donc soudé sur la plaque de cuivre). La patte composé de plusieurs petites languettes entourée d'un cercle bleu doit être reliée au potentiel indiqué sur le schéma.
 
-![Schéma condensateur variable](/assemblage/5-condensateur-variable-schema.jpg)
-![Montage condensateur variable](/assemblage/6-condensateur-variable.jpg)
+<a href="/assemblage/5-condensateur-variable-schema.jpg"><img class="medium" src="/assemblage/5-condensateur-variable-schema.jpg" alt="Schéma condensateur variable"/></a>
+<a href="/assemblage/6-condensateur-variable.jpg"><img class="medium" src="/assemblage/6-condensateur-variable.jpg" alt="Montage condensateur variable"/></a>
 
 8. Fabriquez la bobine
-    - Coupez un morceau de fil émaillé d’environ 8cm
-    - À l’aide d’un tournevis, ou d’une vis de diamètre 5mm, faites 4 tour de fil autour du support.
-    - Faites des petites pattes au bout de la bobine
-    - Enlevez le vernis présent sur les pattes de la bobine à l’aide du cutter ou d’un couteau en grattant la fine couche de surface.
+
+        - Coupez un morceau de fil émaillé d’environ 8cm
+        - À l’aide d’un tournevis, ou d’une vis de diamètre 5mm, faites 4 tour de fil autour du support.
+        - Faites des petites pattes au bout de la bobine
+        - Enlevez le vernis présent sur les pattes de la bobine à l’aide du cutter en grattant la fine couche de surface.
 
 9. Soudez la bobine
 
 10. Soudez le condensateur polarisé en faisant attention au sens indiqué sur le condensateur et le schéma.
 
-![Montage bobine](/assemblage/7-bobine.jpg)
-![Montage condensateur radial](/assemblage/8-condensateur-radial.jpg)
-![Montage condensateur 10pf](/assemblage/9-condensateur-10pf.jpg)
+<a href="/assemblage/7-bobine.jpg"><img class="medium" src="/assemblage/7-bobine.jpg" alt="Montage bobine"/></a>
+<a href="/assemblage/8-condensateur-radial.jpg"><img class="medium" src="/assemblage/8-condensateur-radial.jpg" alt="Montage condensateur radial"/></a>
 
-11. Vous pouvez souder les autres composants dans l’ordre désiré. Je recommande de souder les composants les plus aux centre en premier.
-        ◦ Deux condensateur 10nF (ceux écrit 103 dessus)
-        ◦ La résistance 27k ohm (rouge-violet-orange)
-        ◦ La résistance 10k ohm (marron-noir-orange)
-        ◦ La résistance 470 ohm (jaune-violet-marron)
-        ◦ Le connecteur de la pile 9V
+11. Vous pouvez souder les autres composants dans l’ordre désiré. Je recommande de souder les composants les plus au centre en premier.
+
+        - Deux condensateur 10nF (ceux écrit 103 dessus)
+        - La résistance 27k ohm (rouge-violet-orange)
+        - La résistance 10k ohm (marron-noir-orange)
+        - La résistance 470 ohm (jaune-violet-marron)
+        - Le connecteur de la pile 9V
 
 
-![Montage condensateur 2](/assemblage/10-condensateur2.jpg)
-![Montage bobine](/assemblage/11-resistances.jpg)
-![Montage bobine](/assemblage/12-resistances2.jpg)
-![Montage bobine](/assemblage/13-resistances1.jpg)
-![Montage bobine](/assemblage/14-resistances2.jpg)
+<a href="/assemblage/10-condensateur-10pf.jpg"><img class="medium" src="/assemblage/10-condensateur-10pf.jpg" alt="Montage condensateur 10pf"/></a>
+<a href="/assemblage/9-condensateur-10pf.jpg"><img class="medium" src="/assemblage/9-condensateur-10pf.jpg" alt="Montage condensateur 10pf"/></a>
+<a href="/assemblage/11-resistances.jpg"><img class="medium" src="/assemblage/11-resistances.jpg" alt="Montage résistances"/></a>
+<a href="/assemblage/12-resistance-470ohm.jpg"><img class="medium" src="/assemblage/12-resistance-470ohm.jpg" alt="Montage résistance 470 ohm"/></a>
 
+12. Assemblez l'entrée jack
+
+Si vous avez acheté une prise jack sans fil, vous devez lui en souder. Pour celà, il faut faire attention à quelques éléments. Sur une prise jack stéréo, il y a un point gauche, un point droite et une masse. Dans notre cas, puisque l’entrée de l’émetteur est mono, nous connecterons les pattes gauche et droites ensemble de la prise jack. Pour faciliter la suite, il est préférable d’utiliser un fil noir pour la masse et un fil rouge pour le fil relient les pattes gauche/droite au potentiel.
+
+<a href="/assemblage/13-jack-femelle-soudure.jpg"><img class="medium" src="/assemblage/13-jack-femelle-soudure.jpg" alt="Jack femelle soudures"/></a>
+
+13. Fin du montage.
+
+Voici à quoi devrait (environ) ressembler votre émetteur FM
+
+<a href="/assemblage/14-vueensemble.jpg"><img class="medium" src="/assemblage/14-vueensemble.jpg" alt="Vue d'ensemble"/></a>
 # Réglage de l'émetteur

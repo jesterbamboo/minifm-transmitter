@@ -16,3 +16,4 @@ Sur cette page sont référencés les problèmes connus de l'émetteur, du site 
 ## guide pas à pas
 ## brochure papier
 ## site internet
+- Traduire le site en anglais

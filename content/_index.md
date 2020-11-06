@@ -2,6 +2,9 @@
 title: Accueil
 ---
 
+# Todo
+- changer largeur maximale du site. pour l'instant c'est 800px, la modifier pour que ce soit en pourcentage.
+
 # Mini radio émetteur FM
 
 Ce site est un tout petit outils qui tente de remplir une seul mission: fournir un guide pour construire des petits émetteurs radio FM.
@@ -30,6 +33,8 @@ Au départ, je pensais me limiter à faire une brochure papier à distribuer. Ma
 
 Si tu vois une coquille sur le site, tu peux m'envoyer un email ou  soumettre une correction directement sur le github du site: <https://github.com/jesterbamboo/minifm-transmitter>
 
-Si tu t'y connais un peu, il y a une section "amélioration". Tu peux y jeter un oeil et en faire exister une. Tu peux aussi proposer des améliorations.
+Le site est pensé pour être fonctionnel et fluide avec une débit internet faible et également sans javascript, sur la navigateur tor par exemple. Si tu détectes un problème sur ces deux points, fait les moi remonter, merci.
+
+Si tu t'y connais un peu, il y a une section "amélioration". Tu peux y jeter un oeil et aider à en concrétiser une. Tu peux aussi proposer des améliorations.
 
 Ceci est un projet personnel mais je suis tout à fait partant pour que ça devienne collectif.
