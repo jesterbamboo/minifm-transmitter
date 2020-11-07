@@ -5,6 +5,9 @@ body {
   line-height: 1.5em;
 }
 
+blockquote {
+    font-family: DejaVu sans mono;
+}
 /* Table of Contents, if wanted
 
 Add to yaml:
@@ -92,14 +95,21 @@ pre {
   padding: 1em;
   overflow-x: auto;
 }
-code { background: #f9f9f9; }
-pre code { background: none; }
+
+code {
+    background: #f9f9f9;
+}
+
+pre code {
+     background: none;
+ }
 
 /* Images, tables, misc. */
 img, iframe, video {
   max-width: 100%;
   height: auto;
 }
+
 main {
   hyphens: auto;
   max-width: 650px;
@@ -147,4 +157,8 @@ img.small {
 img.medium {
     max-width: 300px;
     max-height: 300px;
+}
+
+.content-wrapper  li {
+    font-size: 12px;
 }

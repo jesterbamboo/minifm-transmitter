@@ -2,9 +2,6 @@
 title: Accueil
 ---
 
-# Todo
-- changer largeur maximale du site. pour l'instant c'est 800px, la modifier pour que ce soit en pourcentage.
-
 # Mini radio émetteur FM
 
 Ce site est un tout petit outils qui tente de remplir une seul mission: fournir un guide pour construire des petits émetteurs radio FM.
