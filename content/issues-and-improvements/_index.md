@@ -2,6 +2,7 @@
 title = "Problèmes et améliorations"
 author = "Jester Bamboo"
 +++
+##### mise à jour: 8 novembre 2020
 
 Sur cette page sont référencés les problèmes connus de l'émetteur, du site internet et de ça version papier.
 

@@ -2,6 +2,7 @@
 title = "Guide pas à pas"
 author = "Jester Bamboo"
 +++
+##### mise à jour: 8 novembre 2020
 
 Ce guide pas à pas se veut minimaliste sur l'aspect théorique et se concentre sur la fabrication de l'émetteur FM. Pour plus de détails théoriques, je vous invite à allez jeter un oeil à la section [détails techniques](/techniques).
 
