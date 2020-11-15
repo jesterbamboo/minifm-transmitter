@@ -14,7 +14,7 @@ Ces petits appareils sont formidables. Je leur trouve pleins de petits avantages
 - accessible à toutes et tous
 - ne demande pas l'accès à de grosses machines
 
-Je vois une certaine humilité dans ces tous petits émetteurs radios de qui on attends peu et qui donne en retour le juste bon niveau.
+Je vois une certaine humilité dans ces tous petits émetteurs radios desquels on attends peu et qui donne en retour le juste bon niveau.
 
 ### Par quoi commencer?
 

@@ -4,14 +4,17 @@ author = "Jester Bamboo"
 +++
 ##### mise à jour: 8 novembre 2020
 
-Sur cette page sont référencés les problèmes connus de l'émetteur, du site internet et de ça version papier.
+Sur cette page sont référencés les problèmes connus et les améliorations envisageables de l'émetteur, du site internet et de la brochure papier.
+
 
 ## Problèmes connus
 
-Pour l'instant aucun problème n'a été répertorié.
+Pour l'instant aucun problème n'a été répertorié. ;)
 
 ## Améliorations
 ### émetteur et guide pas à pas
+- Mettre un guide de fabrication d'une antenne à partir d'un cable coaxial.
+
 - Améliorer l’aspect récupération. Trouver une liste d’appareil ressources où facilement trouver les différents composants. Notamment, pour le fil de cuivre émaillé, le condensateur variable et la plaque de cuivre.
 
 - Tester si l’inductance de fil émaillé peut-être remplacé par une inductance au format « résistance ». c’est un composant qui coûterait en 0.25€. ça éviterait d’avoir à acheter 20m de fils émaillés
@@ -20,9 +23,7 @@ Pour l'instant aucun problème n'a été répertorié.
 
 - Pouvoir adapter des piles rechargeables (https://www.instructables.com/How-to-Make-9v-Battery-Pack-Using-18650/)
 
-- Alimentation par USB
-
 - Avoir une partie récepteur FM pour faciliter les réseaux de mini-émetteur radio.
 
-## site internet
+## site internet et brochure
 - Traduire le site en anglais
