@@ -3,7 +3,7 @@ title: Accueil
 ---
 
 # Mini radio émetteur FM
-##### mise à jour: 8 novembre 2020
+##### mise à jour: novembre 2020
 
 Ce site est un tout petit outils qui tente de remplir une seul mission: fournir un guide pour construire des petits émetteurs radio FM.
 
@@ -19,8 +19,6 @@ Je vois une certaine humilité dans ces tous petits émetteurs radios desquels o
 ### Par quoi commencer?
 
 Si vous découvrez le site, je vous invite à aller dans la section [guide](/guide) qui est un pas à pas de toutes les étapes de constructions de l'émetteur radio.
-
-Pour les aspects plus techniques de l'émetteur, je vous invite à aller dans la section [détails techniques](/techniques). N'étant pas un joyeux savant des ondes radios et de l'électronique, vous y trouverez probablement des erreurs. Si vous en voyez une, dites le moi, que l'information s'améliore au fur et à mesure.
 
 ### Pourquoi en faire un site internet?
 

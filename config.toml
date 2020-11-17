@@ -17,7 +17,7 @@ theme = "hugo-classic"
     url = "/techniques/"
     weight = 3
   [[menu.main]]
-    name = "Image et vidéos"
+    name = "Images et vidéos"
     url = "/gallery/"
     weight = 4
     [[menu.main]]

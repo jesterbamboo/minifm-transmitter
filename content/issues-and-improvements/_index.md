@@ -2,7 +2,7 @@
 title = "Problèmes et améliorations"
 author = "Jester Bamboo"
 +++
-##### mise à jour: 8 novembre 2020
+##### mise à jour: novembre 2020
 
 Sur cette page sont référencés les problèmes connus et les améliorations envisageables de l'émetteur, du site internet et de la brochure papier.
 
@@ -25,5 +25,5 @@ Pour l'instant aucun problème n'a été répertorié. ;)
 
 - Avoir une partie récepteur FM pour faciliter les réseaux de mini-émetteur radio.
 
-## site internet et brochure
-- Traduire le site en anglais
+## Site internet et brochure
+- Traduire le site en anglais (priorité faible)

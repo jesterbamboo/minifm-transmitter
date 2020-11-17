@@ -2,14 +2,16 @@
 title = "Guide pas à pas"
 author = "Jester Bamboo"
 +++
-##### mise à jour: 8 novembre 2020
+##### mise à jour: novembre 2020
 
 Ce guide pas à pas se veut minimaliste sur l'aspect théorique et se concentre sur la fabrication de l'émetteur FM. Pour plus de détails théoriques, je vous invite à allez jeter un oeil à la section [détails techniques](/techniques).
+
+Cliquez sur les images pour les agrandir
 
 ## Principe de base
 
 ### Schéma électronique
-Note: La compréhension du schéma électronique n'est pas requise pour arrivé à faire fonctionner l'émetteur radio.
+##### Note: La compréhension du schéma électronique n'est pas requise pour arrivé à faire fonctionner l'émetteur radio.
 
 ![Schéma électronique](/schema-electronique.png)    
 
@@ -165,7 +167,7 @@ Voici à quoi devrait (environ) ressembler votre émetteur FM
 
 Maintenant que l’émetteur est construit, nous allons devoir le régler pour qu’il émette sur une fréquence choisi. Pour cela vous aurez besoin d’un récepteur radio FM qui permettra d’écouter en même temps ce que vous émettez.
 
-> Voici l'ordre des actions à effectuer
+> Les étapes du réglages:
     <ul>
         <li> Branchez la pile 9V à l’émetteur</li>
         <li> Allumer votre poste de radio récepteur sur n’importe quelle fréquence entre 88MHz et 107MHz</li>
