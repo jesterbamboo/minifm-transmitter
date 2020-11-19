@@ -6,7 +6,7 @@ author = "Jester Bamboo"
 
 Ce guide pas à pas se veut minimaliste sur l'aspect théorique et se concentre sur la fabrication de l'émetteur FM. Pour plus de détails théoriques, je vous invite à allez jeter un oeil à la section [détails techniques](/techniques).
 
-Cliquez sur les images pour les agrandir
+##### Note: Cliquez sur les images pour les agrandir
 
 ## Principe de base
 
@@ -25,9 +25,11 @@ Cliquez sur les images pour les agrandir
     - 1 x 10k ohm (marron-noir-orange)
     - 1 x 27k ohm (rouge-violet-orange)
 
-    <a href="/composants/resistance-470.jpg"><img class="small" src="/composants/resistance-470.jpg" alt="Résistance 470 ohm"/></a>
-    <a href="/composants/resistance-10k.jpg"><img class="small" src="/composants/resistance-10k.jpg" alt="Résistance 10k ohm"/></a>
-    <a href="/composants/resistance-27k.jpg"><img class="small" src="/composants/resistance-27k.jpg" alt="Résistance 27k ohm"/></a>
+    {{< figure src="/composants/resistance-470.jpg" alt="Résistance de 470 ohms" class="small small-3">}}
+    {{< figure src="/composants/resistance-10k.jpg" alt="Résistance de 10k ohms" class="small small-3">}}
+    {{< figure src="/composants/resistance-27k.jpg" alt="Résistance de 27k ohms" class="small small-3">}}
+
+<div style="clear:both"></div>
 
 - Condensateurs
     - 1 x 10 picofarad (pF)
@@ -35,26 +37,33 @@ Cliquez sur les images pour les agrandir
     - 1 x 1 microfarad (uF) polarisé     
     - 1 x condensateur variable entre 1 et 22 picofarad (pF)
 
-    <a href="/composants/condensateur-10pF.jpg"><img class="small" src="/composants/condensateur-10pF.jpg" alt="Condensateur 10 picofarad"/></a>
-    <a href="/composants/condensateur-10nF.jpg"><img class="small" src="/composants/condensateur-10nF.jpg" alt="Condensateur 10 nanofarad"/></a>
-    <a href="/composants/condensateur-1uF.jpg"><img class="small" src="/composants/condensateur-1uF.jpg" alt="Condensateur 1 microfarad"/></a>
-    <a href="/composants/condensateur-variable.jpg"><img class="small" src="/composants/condensateur-variable.jpg" alt="Condensateur variablem"/></a>
+    {{< figure src="/composants/condensateur-10pF.jpg" alt="Condensateur 10 picofarad" class="small small-4">}}
+    {{< figure src="/composants/condensateur-10nF.jpg" alt="Condensateur 10 nanofarad" class="small small-4">}}
+    {{< figure src="/composants/condensateur-1uF.jpg" alt="Condensateur radial 1 microfarad" class="small small-4">}}
+    {{< figure src="/composants/condensateur-variable.jpg" alt="Condensateur variable" class="small small-4">}}
+
+<div style="clear:both"></div>
+
 
 - 1 x transistor NPN - 2N2222A
 - 10cm de fil de cuivre émaillé 0.8mm (pour fabriquer une bobine)
 - Plaque en époxy simple face, 8mm d'épaisseur, recouvert d'une couche de cuivre
 
-    <a href="/composants/transistor-2N2222A.jpg"><img class="small" src="/composants/transistor-2N2222A.jpg" alt="Transistor 2N2222A"/></a>
-    <a href="/composants/fil-emaille.jpg"><img class="small" src="/composants/fil-emaille.jpg" alt="Fil émaillé"/></a>
-    <a href="/composants/plaque-epoxy.jpg"><img class="small" src="/composants/plaque-epoxy.jpg" alt="Plaque époxy"/></a>
+    {{< figure src="/composants/transistor-2N2222A.jpg" alt="Transistor 2N2222A" class="small small-3">}}
+    {{< figure src="/composants/fil-emaille.jpg" alt="Fil émaillé" class="small small-3">}}
+    {{< figure src="/composants/plaque-epoxy.jpg" alt="Plaque époxy" class="small small-3">}}
+
+<div style="clear:both"></div>
 
 - 1 x fiche jack femelle mono "3,5mm"
 - 1 x connecteur à pression pour pile 9V
 - 1 x pile 9V
 
-    <a href="/composants/jack-femelle.jpg"><img class="small" src="/composants/jack-femelle.jpg" alt="Jack femelle"/></a>
-    <a href="/composants/connecteur-9V.jpg"><img class="small" src="/composants/connecteur-9V.jpg" alt="Connecteur pile 9V"/></a>
-    <a href="/composants/pile-9V.jpg"><img class="small" src="/composants/pile-9V.jpg" alt="Pile 9V"/></a>
+    {{< figure src="/composants/jack-femelle.jpg" alt="Transistor 2N2222A" class="small small-3">}}
+    {{< figure src="/composants/connecteur-9V.jpg" alt="Fil émaillé" class="small small-3">}}
+    {{< figure src="/composants/pile-9V.jpg" alt="Plaque époxy" class="small small-3">}}
+
+<div style="clear:both"></div>
 
 ### Où acheter les composants?
 
@@ -105,8 +114,10 @@ Voici un exemple de panier pour la fabrication de 10 émetteurs.
 
 > 4. Faites fondre de l’étain sur chaque potentiel à l’aide du fer à souder
 
-<a href="/assemblage/1-potentiels-masses"><img class="medium" src="/assemblage/1-potentiels-masses.jpg" alt="Potentiels et masses 1"/></a>
-<a href="/assemblage/2-potentiels-colles.jpg"><img class="medium" src="/assemblage/2-potentiels-colles.jpg" alt="Potentiels et masses 2"/></a>
+{{< figure src="/assemblage/1-potentiels-masses.jpg" alt="Potentiels et masses 1" class="medium">}}
+{{< figure src="/assemblage/2-potentiels-colles.jpg" alt="Potentiels et masses 2" class="medium">}}
+
+<div style="clear:both"></div>
 
 > 5. Soudez le transistor
     <ul>
@@ -114,15 +125,19 @@ Voici un exemple de panier pour la fabrication de 10 émetteurs.
         <li>si vous avez un autre transistor, il vous faut allez vérifier sur internet son sens de montage en fonction des broches base, émetteur et collecteur dans la datasheet.</li>
     </ul>
 
-<a href="/assemblage/3-2N2222A.jpg"><img class="medium" src="/assemblage/3-2N2222A.jpg" alt="Datasheet 2N2222A"/></a>
-<a href="/assemblage/4-transistor.jpg"><img class="medium" src="/assemblage/4-transistor.jpg" alt="Montage transistor"/></a>
+{{< figure src="/assemblage/3-2N2222A-resized.jpg" alt="Datasheet 2N2222A" class="medium">}}
+{{< figure src="/assemblage/4-transistor.jpg" alt="Montage transistor" class="medium">}}
+
+<div style="clear:both"></div>
 
 > 6. Soudez le petit condensateur de 10pF entre les pattes émetteur et collecteur du transistor.(attention, les photos montrent un ordre de montage un peu différent avec le condensateur 10pf qui est monté après le condensateur variable. J'ai depuis changé ma façon de faire et je recommande de souder le 10pf avant le variable.)
 
 > 7. Soudez le condensateur variable. Le condensateur variable a trois pattes. Il faut mettre une des pattes sur le potentiel indiqué sur le schéma et les deux autres pattes à la masse. Sur l’image ci-dessous, on voit les trois pattes du condensateurs. Les broches entourés d’un cercle rouge doivent-être reliées à la masse (donc soudé sur la plaque de cuivre). La patte composé de plusieurs petites languettes entourée d'un cercle bleu doit être reliée au potentiel indiqué sur le schéma.
 
-<a href="/assemblage/5-condensateur-variable-schema.jpg"><img class="medium" src="/assemblage/5-condensateur-variable-schema.jpg" alt="Schéma condensateur variable"/></a>
-<a href="/assemblage/6-condensateur-variable.jpg"><img class="medium" src="/assemblage/6-condensateur-variable.jpg" alt="Montage condensateur variable"/></a>
+{{< figure src="/assemblage/5-condensateur-variable-schema.jpg" alt="Schéma condensateur variable" class="medium">}}
+{{< figure src="/assemblage/6-condensateur-variable.jpg" alt="Montage condensateur variable" class="medium">}}
+
+<div style="clear:both"></div>
 
 > 8. Fabriquez la bobine
     <ul>
@@ -136,8 +151,10 @@ Voici un exemple de panier pour la fabrication de 10 émetteurs.
 
 > 10. Soudez le condensateur polarisé en faisant attention au sens indiqué sur le condensateur et la photo ci-dessous.
 
-<a href="/assemblage/7-bobine.jpg"><img class="medium" src="/assemblage/7-bobine.jpg" alt="Montage bobine"/></a>
-<a href="/assemblage/8-condensateur-radial.jpg"><img class="medium" src="/assemblage/8-condensateur-radial.jpg" alt="Montage condensateur radial"/></a>
+{{< figure src="/assemblage/7-bobine.jpg" alt="Montage bobine" class="medium">}}
+{{< figure src="/assemblage/8-condensateur-radial.jpg" alt="Montage condensateur radial" class="medium">}}
+
+<div style="clear:both"></div>
 
 > 11. Vous pouvez souder les autres composants dans l’ordre désiré. Je recommande de souder les composants les plus au centre en premier.
     <ul>
@@ -148,20 +165,26 @@ Voici un exemple de panier pour la fabrication de 10 émetteurs.
         <li>Le connecteur de la pile 9V</li>
     </ul>
 
-<a href="/assemblage/10-condensateur-10pf.jpg"><img class="medium" src="/assemblage/10-condensateur-10pf.jpg" alt="Montage condensateur 10pf"/></a>
-<a href="/assemblage/9-condensateur-10pf.jpg"><img class="medium" src="/assemblage/9-condensateur-10pf.jpg" alt="Montage condensateur 10pf"/></a>
-<a href="/assemblage/11-resistances.jpg"><img class="medium" src="/assemblage/11-resistances.jpg" alt="Montage résistances"/></a>
-<a href="/assemblage/12-resistance-470ohm.jpg"><img class="medium" src="/assemblage/12-resistance-470ohm.jpg" alt="Montage résistance 470 ohm"/></a>
+{{< figure src="/assemblage/9-condensateur-10pf.jpg" alt="Montage condensateur 10pf" class="medium medium-3">}}
+{{< figure src="/assemblage/11-resistances.jpg" alt="Montage résistances" class="medium medium-3">}}
+{{< figure src="/assemblage/12-resistance-470ohm.jpg" alt="Montage résistance 470 ohm radial" class="medium medium-3">}}
+
+<div style="clear:both"></div>
 
 > 12. Assemblez l'entrée jack. <br>
 Si vous avez acheté une prise jack sans fil, vous devez lui en souder. Pour celà, il faut faire attention à quelques éléments. Sur une prise jack stéréo, il y a un point gauche, un point droite et une masse. Dans notre cas, puisque l’entrée de l’émetteur est mono, nous connecterons les pattes gauche et droites ensemble de la prise jack. Pour faciliter la suite, il est préférable d’utiliser un fil noir pour la masse et un fil rouge pour le fil relient les pattes gauche/droite au potentiel.
 
-<a href="/assemblage/13-jack-femelle-soudure.jpg"><img class="medium" src="/assemblage/13-jack-femelle-soudure.jpg" alt="Jack femelle soudures"/></a>
+{{< figure src="/assemblage/13-jack-femelle-schema.jpg" alt="Montage résistances" class="medium">}}
+{{< figure src="/assemblage/13-prisejack1-photo.jpg" alt="Montage résistance 470 ohm radial" class="medium">}}
+
+<div style="clear:both"></div>
 
 > 13. Fin du montage. <br>
 Voici à quoi devrait (environ) ressembler votre émetteur FM
 
-<a href="/assemblage/14-vueensemble.jpg"><img class="medium" src="/assemblage/14-vueensemble.jpg" alt="Vue d'ensemble"/></a>
+{{< figure src="/assemblage/14-vueensemble.jpg" alt="Vue d'ensemble" class="medium medium-1">}}
+
+<div style="clear:both"></div>
 
 ## Réglage de l'émetteur
 
@@ -202,3 +225,5 @@ Est-ce que lorsque vous tournez le condensateur variable, vous entendez un petit
         <li> Vérifier que le volume de votre source audio soit assez faible pour ne pas faire saturer l’amplificateur</li>
         <li> Vérifier que vous n’avez pas inverser le rouge et le noir de la prise jack</li>
     </ul>
+
+{{< load-photoswipe >}}

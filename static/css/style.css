@@ -148,15 +148,36 @@ tr:nth-child(even) { background: #eee }
   display: block;
 }
 
-img.small {
+figure.small {
     max-width: 100px;
     max-height: 100px;
+    float:left;
+    margin: 2%;
 }
 
-img.medium {
-    max-width: 300px;
-    max-height: 300px;
+figure.small-3 {
+    width: 30%;
 }
+
+figure.small-4 {
+    width: 20%;
+}
+
+figure.medium {
+    float:left;
+    width: 30%;
+}
+
+figure.medium-1 {
+    width: 40%;
+}
+
+figure.medium-3 {
+    width: 28%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 
 .content-wrapper  li {
     font-size: 1em;
@@ -164,4 +185,8 @@ img.medium {
 
 h5 {
     font-weight: lighter;
+}
+
+.content-wrapper .pswp__caption__center {
+    text-align: center;
 }

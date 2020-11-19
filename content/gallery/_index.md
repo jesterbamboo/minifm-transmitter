@@ -6,8 +6,10 @@ author = "Jester Bamboo"
 
 La gallerie estencore incomplète. Une fois le guide pas à pas et la brochure papier terminées, c'est la prochaine section du site que je ferais. Ça me parrait assez important d'avoir des visuels pour monter la radio et pour la régler.
 
+Cliquez sur les images pour les agrandir.
+
 ## Assemblage
-*faire une gallerie d'image de l'assemblage*
+
 {{< gallery dir="/img/photos/" />}}
 
 ## Réglage de la radio
