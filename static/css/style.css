@@ -148,6 +148,11 @@ tr:nth-child(even) { background: #eee }
   display: block;
 }
 
+figure {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
 figure.small {
     max-width: 100px;
     max-height: 100px;
@@ -165,7 +170,7 @@ figure.small-4 {
 
 figure.medium {
     float:left;
-    width: 30%;
+    width: 32%;
 }
 
 figure.medium-1 {
@@ -189,4 +194,9 @@ h5 {
 
 .content-wrapper .pswp__caption__center {
     text-align: center;
+}
+
+iframe.video {
+    width: 720px;
+    height: 480px;
 }

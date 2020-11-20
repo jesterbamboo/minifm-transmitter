@@ -4,21 +4,40 @@ author = "Jester Bamboo"
 +++
 ##### mise à jour: novembre 2020
 
-Ce guide pas à pas se veut minimaliste sur l'aspect théorique et se concentre sur la fabrication de l'émetteur FM. Pour plus de détails théoriques, je vous invite à allez jeter un oeil à la section [détails techniques](/techniques).
+Ce guide pas à pas se veut minimaliste sur l'aspect théorique et se concentre sur la fabrication de l'émetteur FM. Pour plus de photos et vidéos, je vous invite à allez visiter la section "images et vidéos".
 
+## Sommaire
+- [Principe de base](#guide-principe)
+- [Matériel nécessaire](#guide-materiel)
+- [Outils](#guide-outils)
+- [Assemblage de l'émetteur](#guide-assemblage)
+- [Réglage](#guide-depanage)
+- [Dépannage](#guide-reglage)
+
+<a name="guide-principe"></a>
+## Principe de base
 ##### Note: Cliquez sur les images pour les agrandir
 
-## Principe de base
+Ce guide va permettre de passer du schéma théorique de gauche à l'émetteur physique de droite sans nécessité la compréhension du schéma électronique, ni ne matériel spécifique de fabrication de carte électronique.
 
-### Schéma électronique
-##### Note: La compréhension du schéma électronique n'est pas requise pour arrivé à faire fonctionner l'émetteur radio.
+La malinerie de ce montage réside dans l'idée de coller des carrées d'epoxy sur d'autres pour créer une carte électronique fait-maison. Dans l'industrie les machines traces des chemins entre les composants qui doivent être reliés entre eux. Ici on crée des petits ilôts ayant un potentiel électrique commun sur chaque petit carrée et on vient ensuite souder les composants dessus. Ceci rend très accessible la fabrication de carte électronique simple.
 
-![Schéma électronique](/schema-electronique.png)    
+Les outils nécessaire sont basiques et s et nous évite aussi d'avoir recours à des produits chimiques pénibles à manipuler.e trouve probablement dans n'importe quelle atelier collectif.
+Les composants égalements sont simple ainsi vous pourrez vous les procurer facilement.
+
+Que d'avantage pour un petit circuit! Le point négatif est la portée de l'émetteur qui est assez courte et parfois la qualité du signal. Pour une introduction à l'électronique et à la radio émission, ça fait très bien le travail. Bon montage.
+
+{{< figure src="/schema-electronique.png" alt="Schéma électronique" class="medium medium-1">}}
+{{< figure src="/assemblage/14-vueensemble.jpg" alt="L'émetteur assemblé" class="medium medium-1">}}
+
+<div style="clear: both"></div>
 
 
+<a name="guide-materiel"></a>
 ## Matériel nécessaire
 
 ### Composants électroniques
+##### Note: Cliquez sur les images pour les agrandir
 
 - Résistances
     - 1 x 470 ohm (jaune-violet-marron)
@@ -83,6 +102,7 @@ Si l’on fait la même commande dans l’idée de fabriquer dix émetteurs. On 
 Voici un exemple de panier pour la fabrication de 10 émetteurs.
 ![Panier Gotronic 10](/panier-gotronic-10.png)
 
+<a name="guide-outils"></a>
 ## Outils
 - Un fer à souder et de l'étain
 - Une scie à métaux
@@ -94,9 +114,10 @@ Voici un exemple de panier pour la fabrication de 10 émetteurs.
 - Un cable jack-jack
 - Un récepteur radio FM
 
-# Assemblage de l'émetteur
+<a name="guide-assemblage"></a>
+## Assemblage de l'émetteur
 
-## Quelques conseils de soudures :
+### Quelques conseils de soudures
 - Les pattes des composants sont souvent trop grandes. Vous pouvez les couper pour faciliter la positionnement. Ne les coupez pas trop courts non plus. 1cm pour chaque patte devrait être suffisant.
 - Plier les pattes selon un angle de 90° à la moitié de leur longueur. Ceci facilitera la mise en place du composant et l’organisation visuel du circuit.
 - Faites fondre un peu d'étain sur le pattes du composants pour faciliter son installation.
@@ -105,10 +126,11 @@ Voici un exemple de panier pour la fabrication de 10 émetteurs.
 - Il n’y a pas d’ordre obligatoire de soudure. Mais il est recommandé de commencer par les composants du centre et ceux nécessitant une attention particulière.
 - Il est possible qu’en faisant fondre l’étain sur un potentiel, cela amène à dé-souder un autre composant déjà installé. Parfois, il faut faire preuve d’un peu de dextérité pour tenir plusieurs composants en même temps avec les doigts et le fer à souder.
 
-## Le montage en 14 étapes
-> 1. À l’aide la pince à métaux, découpez un carré de 50cm*50cm dans la plaque d’époxy. On appellera ce carré « la masse »
+### L'assemblage
+##### Note: Cliquez sur les images pour les agrandir
+> 1. À l’aide la scie à métaux, découpez un carré de 50cm*50cm dans la plaque d’époxy. On appellera ce carré « la masse »
 
-> 2. Découpez 5 carrés de 10mm*5mm dans la plaque coupé précédemment. On appellera ses petits carrés « les potentiels »
+> 2. Découpez 5 carrés de 10mm*5mm dans la plaque coupé précédemment. On appellera ses petits caexplicantrrés « les potentiels »
 
 > 3. Avec la colle super glu, collez les potentiels sur la masse selon la disposition de la photo ci-dessous.
 
@@ -180,12 +202,13 @@ Si vous avez acheté une prise jack sans fil, vous devez lui en souder. Pour cel
 <div style="clear:both"></div>
 
 > 13. Fin du montage. <br>
-Voici à quoi devrait (environ) ressembler votre émetteur FM
+Voici à quoi devrait (environ) ressembler votre émetteur FM. Vous trouverez une vidéo de l'émetteur assemblé dans la gallerie d'images et vidéos.
 
 {{< figure src="/assemblage/14-vueensemble.jpg" alt="Vue d'ensemble" class="medium medium-1">}}
 
 <div style="clear:both"></div>
 
+<a name="guide-reglage"></a>
 ## Réglage de l'émetteur
 
 Maintenant que l’émetteur est construit, nous allons devoir le régler pour qu’il émette sur une fréquence choisi. Pour cela vous aurez besoin d’un récepteur radio FM qui permettra d’écouter en même temps ce que vous émettez.
@@ -201,6 +224,10 @@ Maintenant que l’émetteur est construit, nous allons devoir le régler pour q
         <li>Mettez le volume de votre source de son au minimum et augmentez doucement le volume. Si tout c’est bien passé, vous devriez entendre votre son à la radio.</li>
     </ul>
 
+L'explication du réglage en vidéo:
+<iframe class="video" sandbox="allow-same-origin allow-scripts allow-popups" src="https://peertube.uno/videos/embed/10a47df6-243e-4f6d-8b4c-660a3025f8e6" frameborder="0" allowfullscreen></iframe>
+
+<a name="guide-depannage"></a>
 ## Dépannage
 
 Dans le cas où vous n’arrivez pas à entendre votre son à la radio ou que la qualité du signal écouté n’est pas satisfaisante, nous allons devoir passer au dépannage pour identifier les différents problèmes présents.

@@ -13,12 +13,12 @@ theme = "hugo-classic"
     url = "/guide/"
     weight = 2
   [[menu.main]]
-    name = "Détails techniques"
-    url = "/techniques/"
-    weight = 3
-  [[menu.main]]
     name = "Images et vidéos"
     url = "/gallery/"
+    weight = 3
+  [[menu.main]]
+    name = "Détails techniques"
+    url = "/techniques/"
     weight = 4
     [[menu.main]]
       name = "Problèmes et améliorations"
