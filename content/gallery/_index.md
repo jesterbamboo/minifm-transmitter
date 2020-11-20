@@ -3,9 +3,6 @@ title = "Gallerie d'image et de vidéos"
 author = "Jester Bamboo"
 +++
 ##### mise à jour: novembre 2020
-
-
-## Index des images et vidéos
 ### Images
 - [Gallerie d'image de l'assemblage](#image-assemblage)
 
@@ -21,7 +18,23 @@ author = "Jester Bamboo"
 
 Cliquez sur les images pour les agrandir.
 
-{{< gallery dir="/img/photos/" />}}
+{{< gallery >}}
+  {{< figure src="/img/photos/1-potentiels-masses-medium.jpg" >}}
+  {{< figure src="/img/photos/2-potentiels-collés-medium.jpg" >}}
+  {{< figure src="/img/photos/3-transistor-medium.jpg" >}}
+  {{< figure src="/img/photos/4-condensateur-variable-medium.jpg" >}}
+  {{< figure src="/img/photos/4-condensateur-variable2-medium.jpg" >}}
+  {{< figure src="/img/photos/5-bobine-medium.jpg" >}}
+  {{< figure src="/img/photos/6-condensateur-radial-medium.jpg" >}}
+  {{< figure src="/img/photos/7-condensateur1-medium.jpg" >}}
+  {{< figure src="/img/photos/7-condensateur2-medium.jpg" >}}
+  {{< figure src="/img/photos/8-resistances-medium.jpg" >}}
+  {{< figure src="/img/photos/8-resistances2-medium.jpg" >}}
+  {{< figure src="/img/photos/9-resistances1-medium.jpg" >}}
+  {{< figure src="/img/photos/12-soudures-terminees-medium.jpg" >}}
+  {{< figure src="/img/photos/13-vueensemble-medium.jpg" >}}
+  {{< figure src="/img/photos/10-prisejack1-medium.jpg" >}}
+{{< /gallery >}}
 
 <a name="video-composants"></a>
 ## Le tour des composants

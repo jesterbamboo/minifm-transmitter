@@ -216,16 +216,17 @@ Maintenant que l’émetteur est construit, nous allons devoir le régler pour q
 > Les étapes du réglages:
     <ul>
         <li> Branchez la pile 9V à l’émetteur</li>
-        <li> Allumer votre poste de radio récepteur sur n’importe quelle fréquence entre 88MHz et 107MHz</li>
+        <li> Allumez votre poste de radio récepteur sur n’importe quelle fréquence entre 88MHz et 107MHz</li>
         <li> À l’aide d’un petit tournevis, faites tourner la vitesse sur la condensateur variable. À chaque tour, vous devriez entendre un petit moment de blanc sur la radio. Il se peut que vous arrivez à trouver le fréquence blanche (silence total à la radio) lorsque vous avez le tournevis sur le condensateur et qu’elle disparaît lorsque vous relachez. Réglez le condesanteur variable un peu près autour de cette fréquence blanche.</li>
-        <li> Maintenant, affiner la fréquence sur votre poste radio pour trouver le silence radio.</li>
+        <li> Affinez la fréquence sur votre poste radio pour trouver le silence radio.</li>
+        <li> Branchez    le fil jack-jack sur l’entrée jack de la radio et sur votre source de son.</li>
         <li> Mettez le volume de votre source de son au minimum et augmentez doucement le volume. Si tout c’est bien passé, vous devriez entendre votre son à la radio.</li>
-        <li> Brancher le fil jack-jack sur l’entrée jack de la radio et sur votre source de son.</li>
-        <li>Mettez le volume de votre source de son au minimum et augmentez doucement le volume. Si tout c’est bien passé, vous devriez entendre votre son à la radio.</li>
     </ul>
 
 L'explication du réglage en vidéo:
 <iframe class="video" sandbox="allow-same-origin allow-scripts allow-popups" src="https://peertube.uno/videos/embed/10a47df6-243e-4f6d-8b4c-660a3025f8e6" frameborder="0" allowfullscreen></iframe>
+
+Si le réglage a été concluant, vous pouvez à présent émettre sur les ondes FM. Attention, tout ce que vous émettez est écoutable par d'autres.
 
 <a name="guide-depannage"></a>
 ## Dépannage
